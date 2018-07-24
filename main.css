@@ -1,0 +1,32 @@
+body {
+  background-color: #E4E6EA;    
+}
+
+.wrapper {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 500px;
+}
+
+.post {
+  display: grid;
+  margin: 1%;
+  padding: 2%;
+  background-color: #FFFFFF;
+  grid-template-rows: 50px 10% auto 40px;
+}
+
+.link__image > img {
+  object-fit: contain;
+}
+
+.header__logo > img {
+  width: 40px;
+}
+.post__header {
+  display: grid;
+  grid-template-columns: 40px auto auto;
+}
+
+
+
